@@ -146,6 +146,7 @@ header a:hover {
 
 /* Footer */
 footer {
+    width: 100%;
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
@@ -165,3 +166,26 @@ article #main-col {
     float: left;
     width: 65%;
 }
+
+/* Services */
+#services-list li {
+    list-style: none;
+    padding: 20px;
+}
+
+.service-item {
+    background:#cccccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#quote div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#quote input, #quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
