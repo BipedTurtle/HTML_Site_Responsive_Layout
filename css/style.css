@@ -21,6 +21,16 @@ ul {
     margin: 0;
 }
 
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 /* Header */
 header {
     background: #35424a;
@@ -53,7 +63,11 @@ header #branding h1 {
 
 header nav {
     float: right;
-    margin-top: 8px;
+    margin-top: 12px;
+}
+
+header nav li {
+    font-size: 0.8em;
 }
 
 header .highlight, header .current a {
@@ -64,4 +78,68 @@ header .highlight, header .current a {
 header a:hover {
     color: #cccccc;
     font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    background: url("../img/showcase.jpg") 0 -200px no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    font-size: 4em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    ;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
 }
